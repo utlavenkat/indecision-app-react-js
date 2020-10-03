@@ -7,7 +7,8 @@ class Action extends React.Component {
     render() {
         return (
             <div>
-                <button disabled={!this.props.hasOptions} onClick={this.props.handlePick}>What should i do?</button>
+                <button className="big-button"
+                disabled={!this.props.hasOptions} onClick={this.props.handlePick}>What should i do?</button>
             </div>
         )
     }
